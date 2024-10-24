@@ -1,2 +1,168 @@
-# lost-found
-분실물 찾기 웹 서비스 프로젝트
+Lost and Found Platform
+
+readme_mockup
+
+팀원 구성
+
+박소라	유영훈	노광우	김혜림
+P	Y	N	K
+@yuuminaegger	@TyulRip	@ngw960	@khr316
+역할 분담
+
+박소라 P
+
+백엔드 Controller, Dao, 프론트엔드 Html, css, javascript
+
+회원가입 아이디 중복체크, 빈 칸 입력 필수, 비밀번호 & 비밀번호 확인 일치
+로그인 DB 에 저장 된 회원만 로그인 가능 잘못된 아이디 or 비밀번호 입력 시 에러 메세지 출력
+관리자 페이지 회원 탈퇴, 게시글 & 댓글 삭제
+게시글 로그인 = 글 작성자 : 게시글 수정 & 삭제 로그인 = 댓글 작성자 : 댓글 수정 & 삭제 로그인 = 관리자 : 게시글, 댓글 삭제
+메인페이지
+로그인
+회원가입
+
+유영훈 Y
+
+프론트엔드 Html수정 + css , javascript
+분실물 게시판
+습득물 게시판
+분실물 검색 결과
+습득물 검색 결과
+쪽지 확인
+쪽지 보내기
+쪽지 목록
+로그인
+회원가입
+마이페이지
+관리자 페이지
+글쓰기
+게시글
+
+노광우 N
+
+조장
+
+백엔드 Controller, Dao, Html, javascript
+
+메인페이지
+분실물 게시판
+습득물 게시판
+분실물 검색 결과
+습득물 검색 결과 최신순, 오래된 순
+비밀번호 찾기 가입한 이메일로 임시 비밀번호 발급 => K 가 구현한 비밀번호 찾기 기능 개선
+총괄 관리 및 서류 작성
+
+
+김혜림 K
+
+백엔드 Controller, Dao, 프론트엔드 Html, css, javascript
+
+마이페이지 회원 정보 수정 (비밀번호, 전화번호, 이메일) 쪽지 확인 작성한 게시글
+글쓰기 위치 검색, 물품 선택, 이미지 등록
+쪽지 받은 & 보낸 쪽지 확인, 답장기능, 새로운 쪽지 알림
+비밀번호 찾기 아이디 입력 시 비밀번호 발급 => 개인정보 보호 X, 다른 사람도 아이디를 안다면 비번 확인 가능
+메인페이지
+로그인
+회원가입
+
+
+프로젝트 소개
+
+LUCKY PYNK
+
+물건을 분실한 경우 글을 등록하여 분실물을 찾을 수 있는 플랫폼
+물건을 습득한 경우 글을 등록하여 물건의 주인을 찾을 수 있는 플랫폼
+회원가입 필수 (회원만 이용 가능)
+키워드, 지역 별로 게시글 검색 가능
+게시글에 댓글 기능 추가
+쪽지 기능을 넣어 회원들간의 소통을 중시
+목표
+
+효율적인 분실물 관리 서비스 플랫폼 구축
+사용친화적이고 직관적인 UI / UX 디자인 구현
+목적
+
+분실물 찾기 성공률 향상
+커뮤니티 형성 및 신뢰 구축
+시간 및 비용 절감
+사회적 문제 해결 기여
+
+요구사항 분석
+
+분실물 등록 사용자가 분실물 정보를 입력하여 게시글 등록
+분실물 검색 키워드 및 지역 별로 검색 가능
+사용자 인증 및 관리 회원가입, 로그인, 로그아웃
+분실물 상태 관리 분실물의 상태 업데이트 가능 (찾는 중 or 찾기 완료)
+
+개발 환경
+
+FE : HTML CSS JavaScript
+BE : Java JDBC SpringBoot Maven Spring-Data-JPA Lombok
+DataBase : MySQL (JDBC)
+협업 툴 : Github, FileZilla
+    
+
+데이터베이스 설계
+
+데이터베이스 설계
+
+
+프로젝트 구조
+
+src
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── project
+│   │           └── sprint1
+│   │               ├── controller
+│   │               │   ├── AdminController.java
+│   │               │   ├── BoardController.java
+│   │               │   ├── MainController.java
+│   │               │   ├── MessageController.java
+│   │               │   ├── MypageController.java
+│   │               │   ├── PasswordController.java
+│   │               │   └── UserController.java
+│   │               ├── dao
+│   │               │   ├── AdminDao.java
+│   │               │   ├── BoardDao.java
+│   │               │   ├── MainDao.java
+│   │               │   ├── MessageDao.java
+│   │               │   ├── MypageDao.java
+│   │               │   ├── PasswordDao.java
+│   │               │   ├── PostDao.java
+│   │               │   └── UserDao.java
+│   │               ├── service
+│   │               │   └── EmailService.java
+│   │               └── Sprint1Application.java
+│   └── resources
+│       ├── static
+│       │   ├── css
+│       │   └── img
+│       ├── js
+│       └── templates
+│           ├── board
+│           │   ├── category.html
+│           │   ├── detail.html
+│           │   ├── insert.html
+│           │   └── location.html
+│           ├── menu
+│           │   ├── finditem.html
+│           │   ├── lostitem.html
+│           │   ├── searchfi.html
+│           │   └── searchli.html
+│           ├── message
+│           │   └── message_insert.html
+│           │   └── message_notice.html
+│           │   └── message.html
+│           ├── adminpage.html
+│           ├── find-password.html
+│           ├── login.html
+│           ├── main.html
+│           ├── mypage.html
+│           ├── password.html
+│           └── signup.html
+│       └── application.properties
+
+
+시스템 구조
