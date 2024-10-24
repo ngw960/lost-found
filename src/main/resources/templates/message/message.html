@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쪽지보내기</title>
+    <link rel="stylesheet" href="/css/message.css">
+    <script>
+        function messageNotice() {
+            const popup = window.open("/message/message_notice", "","width=1000px,height=600px");
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="massage-dv">
+        <div class="header-container">
+            <a href="/main"><img src="/img/logo/LOGO.png" alt="logo"></a>
+            <p th:text="${messageCnt}" style="margin-left: 500px;"></p>
+            <button onclick="messageNotice()">쪽지 확인</button>
+        </div>
+        <h1>회원 목록</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>회원 아이디</th>
+                    <th>회원 이름</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="user : ${userList}">
+                    <td th:text="${user.id}"></td>
+                    <td th:text="${user.name}"></td>
+                    <td><a th:href="@{/message/send(userid=${user.id},sessionid=${sessionId})}">쪽지보내기</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <p>&copy; 2024 Lucky PYNK Lost-and-found things. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
