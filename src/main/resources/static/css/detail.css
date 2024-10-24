@@ -1,0 +1,160 @@
+/* Reset 기본 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 8px gray;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    color: #e7a5a6;
+    border-radius: 8px;
+    padding: 10px;
+}
+header a:hover {
+    background-color: #d6d6d6;
+}
+
+header img {
+    height: 70px;
+    padding: 10px
+}
+
+.back {
+    font-size: 16px;
+}
+
+.edit-delete-buttons {
+    margin-bottom: 10px;
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 350px;
+}
+
+.edit-delete-buttons button {
+    margin-right: 10px;
+    background-color: #e7a6a5;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.edit-delete-buttons a {
+    text-decoration: none;
+    color: #e7a6a5;
+    margin-left: 10px;
+}
+
+.post-details {
+    margin-bottom: 20px;
+}
+
+.post-details img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+#content {
+    white-space: pre-line;
+}
+
+#content.editable {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.comment-write-dv {
+    margin-bottom: 60px;
+}
+
+.comment-form {
+    margin-bottom: 10px;
+}
+
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+.comment-dv {
+    margin-bottom: 10px;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.comment button {
+    margin-right: 10px;
+    background-color: #e7a6a5;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.comment a {
+    text-decoration: none;
+    color: #dc3545;
+    margin-left: 10px;
+}
+
+.rag-dt {
+    border-left: 1px solid;
+    padding-left: 5px;
+}
+
+footer {
+    background-color: #d4b3b6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+#commentBox{
+    margin-bottom: 60px;
+}
