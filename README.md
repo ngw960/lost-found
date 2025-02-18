@@ -171,73 +171,94 @@ src
 
 ```
 
-**메인 페이지**
+**회원가입**  
 
-![Image](https://github.com/user-attachments/assets/6ab43a7b-8357-45ce-84fd-31aec89e4e78)
-간단한 사이트 이용 정보 확인
+<br>  
+![Image](https://github.com/user-attachments/assets/db7de3b0-a14d-49e0-9084-da0a6655e45e)  
+<br><br>  
 
+**로그인**  
 
+<br>  
+![Image](https://github.com/user-attachments/assets/77614e8b-f116-45f0-81a1-04123fc2df85)  
+<br><br>  
 
-**회원가입**
+**로그인 후 메인페이지**  
 
-![Image](https://github.com/user-attachments/assets/db7de3b0-a14d-49e0-9084-da0a6655e45e)
-<br>
-**로그인**
+<br>  
+![Image](https://github.com/user-attachments/assets/63b5834e-5569-4843-8a47-035d2129d338)  
+<br>  
+로그인 상태에 따라 상단바 변화  
+<br><br>  
 
-![Image](https://github.com/user-attachments/assets/77614e8b-f116-45f0-81a1-04123fc2df85)
+**마이페이지**  
 
-**로그인 후 메인페이지**
+<br>  
+![Image](https://github.com/user-attachments/assets/d99979e4-718a-4688-a6fd-1caaab28fe67)  
+<br>  
+1. 개인정보 확인 및 수정 가능  
+2. 작성한 글 확인 분실물 상태 변경기능(찾는중 -> 찾기완료)  
+<br><br>  
 
-![Image](https://github.com/user-attachments/assets/63b5834e-5569-4843-8a47-035d2129d338)
-로그인 상태에 따라 상단바 변화
+**글쓰기**  
 
-**마이페이지**
+<br>  
+![Image](https://github.com/user-attachments/assets/56cd6b5a-7640-43a3-834f-6e10ac33308d)  
+<br>  
+1. 분실물 or 습득물 을 선택하여 각각 게시판에 등록 가능  
+2. 위치 선택 후 상세위치 입력  
+3. 이미지 파일 등록  
+4. 물품 카테고리 선택 후 등록 가능  
+<br><br>  
 
-![Image](https://github.com/user-attachments/assets/d99979e4-718a-4688-a6fd-1caaab28fe67)
-1. 개인정보 확인 및 수정 가능
-2. 작성한 글 확인 분실물 상태 변경기능(찾는중 -> 찾기완료)
+**게시판**  
 
-**글쓰기**
+<br>  
+![Image](https://github.com/user-attachments/assets/892a5ccc-829a-4c93-acff-c5e64e83523f)  
+![Image](https://github.com/user-attachments/assets/164a0996-f174-4f6b-8b17-68f51940ed5d)  
+<br>  
+1. 우측 상단 버튼을 통해 분실물, 습득물 게시판 자유롭게 이동 가능  
+2. 제목 키워드 검색 기능  
+3. 검색창 우측 select 를 통해 지역별 검색 가능  
+4. 게시글 등록 최신순, 오래된순 조회 가능  
+<br><br>  
 
-![Image](https://github.com/user-attachments/assets/56cd6b5a-7640-43a3-834f-6e10ac33308d)
-1. 분실물 or 습득물 을 선택하여 각각 게시판에 등록 가능
-2. 위치 선택 후 상세위치 입력
-3. 이미지 파일 등록
-4. 물품 카테고리 선택 후 등록 가능
+**게시글**  
 
-**게시판**
+<br>  
+![Image](https://github.com/user-attachments/assets/aaedcd2f-07a8-4107-aa7b-63f3997e4560)  
+<br>  
+1. 본인인 경우 게시글 수정 및 삭제 가능  
+2. 댓글 기능 - 본인인 경우 수정 및 삭제 가능  
+3. 작성자에게 다이렉트 쪽지 보내기 가능  
+<br><br>  
 
-![Image](https://github.com/user-attachments/assets/892a5ccc-829a-4c93-acff-c5e64e83523f)
-![Image](https://github.com/user-attachments/assets/164a0996-f174-4f6b-8b17-68f51940ed5d)
-1. 우측 상단 버튼을 통해 분실물, 습득물 게시판 자유롭게 이동 가능
-2. 제목 키워드 검색 기능
-3. 검색창 우측 select 를 통해 지역별 검색 가능
-4. 게시글 등록 최신순, 오래된순 조회 가능
+**쪽지 페이지**  
 
-**게시글**
+<br>  
+![Image](https://github.com/user-attachments/assets/ea48afe7-46d9-423b-abfe-2343d6f0f62d)  
+<br>  
+1. 사이트에 가입한 회원들에게 쪽지 보내기 가능 (관리자 아이디는 표시 X)  
+2. 미확인 쪽지 알림 기능  
+<br><br>  
 
-![Image](https://github.com/user-attachments/assets/aaedcd2f-07a8-4107-aa7b-63f3997e4560)
-1. 본인인 경우 게시글 수정 및 삭제 가능
-2. 댓글 기능 - 본인인 경우 수정 및 삭제 가능
-3. 작성자에게 다이렉트 쪽지 보내기 가능
+**쪽지 확인**  
 
-**쪽지 페이지**
+<br>  
+![Image](https://github.com/user-attachments/assets/c901822a-cdcb-4cf1-8998-3625ed180284)  
+![Image](https://github.com/user-attachments/assets/48527f50-1d55-4341-b5f0-91f7264ca738)  
+<br>  
+보낸쪽지, 받은쪽지 확인 및 답장  
+<br><br>  
 
-![Image](https://github.com/user-attachments/assets/ea48afe7-46d9-423b-abfe-2343d6f0f62d)
-1. 사이트에 가입한 회원들에게 쪽지 보내기 가능 (관리자 아이디는 표시 X)
-2. 미확인 쪽지 알림 기능
+**쪽지 보내기**  
 
+<br>  
+![Image](https://github.com/user-attachments/assets/777fc6b4-931c-4727-9bc1-947c750bd1f8)  
+<br>  
+보내는 이와 받는 이 아이디 확인 가능  
+<br><br>  
 
-**쪽지 확인**
-
-![Image](https://github.com/user-attachments/assets/c901822a-cdcb-4cf1-8998-3625ed180284)
-![Image](https://github.com/user-attachments/assets/48527f50-1d55-4341-b5f0-91f7264ca738)
-보낸쪽지, 받은쪽지 확인 및 답장
-
-**쪽지 보내기**
-
-![Image](https://github.com/user-attachments/assets/777fc6b4-931c-4727-9bc1-947c750bd1f8)
-보내는 이와 받는 이 아이디 확인 가능
 
 
 
