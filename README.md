@@ -174,3 +174,17 @@ src
 **메인 페이지**
 
 ![Image](https://github.com/user-attachments/assets/6ab43a7b-8357-45ce-84fd-31aec89e4e78)
+
+**회원가입**
+
+![Image](https://github.com/user-attachments/assets/db7de3b0-a14d-49e0-9084-da0a6655e45e)
+
+**로그인**
+
+![Image](https://github.com/user-attachments/assets/77614e8b-f116-45f0-81a1-04123fc2df85)
+
+**로그인 후 메인페이지**
+
+![Image](https://github.com/user-attachments/assets/63b5834e-5569-4843-8a47-035d2129d338)
+
+
