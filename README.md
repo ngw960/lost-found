@@ -170,3 +170,7 @@ src
 │       └── application.properties
 
 ```
+
+**메인 페이지**
+
+![Image](https://github.com/user-attachments/assets/6ab43a7b-8357-45ce-84fd-31aec89e4e78)
