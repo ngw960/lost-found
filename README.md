@@ -181,9 +181,7 @@ src
 **회원가입**
 
 ![Image](https://github.com/user-attachments/assets/db7de3b0-a14d-49e0-9084-da0a6655e45e)
-
-
-
+<br>
 **로그인**
 
 ![Image](https://github.com/user-attachments/assets/77614e8b-f116-45f0-81a1-04123fc2df85)
