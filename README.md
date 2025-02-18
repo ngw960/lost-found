@@ -176,9 +176,13 @@ src
 ![Image](https://github.com/user-attachments/assets/6ab43a7b-8357-45ce-84fd-31aec89e4e78)
 간단한 사이트 이용 정보 확인
 
+
+
 **회원가입**
 
 ![Image](https://github.com/user-attachments/assets/db7de3b0-a14d-49e0-9084-da0a6655e45e)
+
+
 
 **로그인**
 
