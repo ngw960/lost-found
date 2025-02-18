@@ -1,6 +1,6 @@
 **Lost and Found Platform**
 
-https://github.com/ngw960/lost-found/issues/1#issue-2859192612
+![Image](https://github.com/user-attachments/assets/73ea46bc-9be4-481c-962a-4f754d0e5345)
 
 **팀원 구성**
 
